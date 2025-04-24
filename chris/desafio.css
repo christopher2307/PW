@@ -1,0 +1,74 @@
+    .sobre{
+        background: linear=gradient(to left,purple, pink);
+        text-align: left;
+    }
+
+    .sobre p{
+        font-size: 10px;
+    }
+    .hero{
+        background: radial-gradient(circle, red, black);
+    }
+    
+    .hero h1{
+        font-size: 60px;
+        text-align: left;
+    }
+
+    header{
+        background: none;
+        padding: 5px;
+    }
+    .logo{
+        font-size: 12px;
+    }
+    nav ul{
+        display: block;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: underline;
+    }
+    .header{
+        background: red;
+    
+    }
+    .logo{
+        font-size: 40px;
+        font-weight: 900;
+    }
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    nav ul li a{
+        color: black;
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .card{
+        background: rgba(255, 255, 255, 0.2);
+        padding: 20px;
+        border-radius: 10px;
+        width: 200px;
+        text-align: center;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.2)
+        padding: 20px;
+        border-radius: 10px }
+
+    form input, form textarea, form button{
+        margin-top: 10px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+    }
