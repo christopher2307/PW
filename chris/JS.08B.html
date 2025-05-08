@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="usuario" placeholder="Digite seu usuario">
+    <input type="password" id="senha" placeholder="Digite sua senha">
+    <button onclick="validar()">Enviar</button>
+
+    <script>
+        function validar() {
+            let info = document.getElementById("usuario").value;
+            let info2 = document.getElementById("senha").value;
+            if (info === "admin" && info2 === "1234") 
+                alert ("Você entrou")
+            
+            else {
+                alert ("tente novamente")
+            }
+        }
+    </script>
+
+
+</html>

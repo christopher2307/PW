@@ -19,5 +19,9 @@ body{
 
 .item-3{
     align-self: flex-end;
+    order: -1;
+}
 
+.item-6{
+    order: 3;
 }

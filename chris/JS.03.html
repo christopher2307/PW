@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Enunciado</h2>
+    <p> crie um campo de texto para digitar seu nome e um botão. Quando
+    clicar, deve aparecer um alerta. "Olá, ( nome digitado)!".</p>
+    <input type="text" id="nome" placeholder="digite aqui o seu nome">
+    <input type="number" id="idade" placeholder="digite sua idade">
+    <input type="text" id="cidade" placeholder="digite sua cidade de nacimento">
+    <button onclick="saudação()"> Enviar</button>
+    <script>
+        function saudação(){
+            let nome = document.getElementById('nome').value;
+            let idade = document.getElementById('idade').value;
+            let cidade = document.getElementById('cidade').value;
+            alert('Olá, ' + nome + ' você tem '+ idade + ' e nasceu em '+ cidade);
+
+             document.querySelector('button').style.backgroundColor = 'blue'
+        }
+    </script>
+
+</body>
+</html>
